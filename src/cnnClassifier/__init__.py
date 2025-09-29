@@ -2,12 +2,13 @@ import os
 import sys
 import logging
 
-# This file is used for creating custom logging
-# Default logging.basicConfig() sends everything to console or a single file.
-#   In production, you may want:
-#     - Errors in one file (error.log).
-#     - All activity in another file (app.log)
-#     - Info-level logs in console.
+""" 
+This file is used for creating custom logging
+Default logging.basicConfig() sends everything to console or a single file.
+   In production, you may want:
+     - Errors in one file (error.log).
+     - All activity in another file (app.log)
+     - Info-level logs in console."""
 
 logging_str = "[%(asctime)s : %(levelname)s : %(module)s : %(message)s]"
 
