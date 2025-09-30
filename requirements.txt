@@ -16,4 +16,5 @@ Flask
 Flask-core
 typeguard
 beartype
+flask-cors
 -e .                 # this is used to install setup.py which is src folder
