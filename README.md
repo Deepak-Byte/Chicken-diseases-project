@@ -133,3 +133,6 @@ open up you local host and port
 
     ECR_REPOSITORY_NAME = simple-app
 
+! To use My project which deploy on render click below link to use this the project
+
+https://chicken-diseases-project.onrender.com/
